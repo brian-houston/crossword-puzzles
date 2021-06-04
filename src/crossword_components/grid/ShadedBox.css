@@ -1,0 +1,5 @@
+.ShadedBox {
+    flex-grow: 1;
+    background-color: #000000;
+    border: 0.5px solid #000000
+}

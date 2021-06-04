@@ -1,0 +1,10 @@
+.CrosswordRow {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    flex-flow: row wrap;
+    align-items: stretch;  
+}

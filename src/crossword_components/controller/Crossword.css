@@ -1,0 +1,25 @@
+.CrosswordGridContainer {
+    display: grid;
+    grid-template-columns: calc(100vh - 50px) calc((100vw - 100vh + 50px));
+}
+
+.CrosswordColumnContainer {
+    display: grid;
+    min-width: 400px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "header header"
+    "main main";
+}
+
+.CrosswordColumnContainer .CrosswordColumn {
+    grid-area: main;
+}
+
+.CrosswordColumnContainer .CrosswordToolbar {
+    grid-area: header;
+}
+
+.Crossword:focus {
+    outline: 0;
+}

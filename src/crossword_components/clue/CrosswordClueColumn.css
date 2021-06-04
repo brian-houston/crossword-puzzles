@@ -1,0 +1,26 @@
+.CrosswordClueColumn {
+    height: calc(100vh - 100px);
+    width: calc((100vw - 100vh + 100px)/2);
+    min-width: 200px;
+    font-size: 1em;
+}
+
+.CrosswordClueColumnTitle {
+    height: 40px;
+    min-width: 200px;
+    line-height: 40px;
+    font-weight: 700;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-left: 5px;
+}
+
+.CrosswordClueColumnList{
+    min-width: 200px;
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
